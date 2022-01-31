@@ -39,5 +39,5 @@ _Note the information described in this example are guidelines.  There are multi
 
 --> 
 
-[VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
+[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
 [Main Page](https://mlwiles.github.io/vmwaresolutions)

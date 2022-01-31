@@ -1,18 +1,18 @@
-## VMWare vCloud Director (vCD)
+## VMware vCloud Director (vCD)
 
-- [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console)
+- [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console)
 - [VMware Solutions Shared overview](https://cloud.ibm.com/docs/vmwaresolutions?topic=vmwaresolutions-shared_overview)
-- [What is VMWare vCloud Director](https://www.vmware.com/products/cloud-director.html)
-- [VMWare vCD Documentation](https://docs.vmware.com/en/VMware-Cloud-Director/index.html)
+- [What is VMware vCloud Director](https://www.vmware.com/products/cloud-director.html)
+- [VMware vCD Documentation](https://docs.vmware.com/en/VMware-Cloud-Director/index.html)
 
-Some different use cases involving vCD. Most likely these will be using VMWare Solutions on IBM Cloud, but will try to make reference when its more of a generic solution or an IBM specific offering.
+Some different use cases involving vCD. Most likely these will be using VMware Solutions on IBM Cloud, but will try to make reference when its more of a generic solution or an IBM specific offering.
 
 - vCD Basics
   - [Simple Deploy of a VM](https://mlwiles.github.io/vmwaresolutions/vcd/vm101/)
   - [Customized VMs (_coming soon_)](https://mlwiles.github.io/vmwaresolutions/vcd/custom-vms/)
   - [Creating vAPP Templates (_coming soon_)](https://mlwiles.github.io/vmwaresolutions/vcd/vapp-templates/)
   - [Passwords and Login Messages](https://mlwiles.github.io/vmwaresolutions/vcd/pwd-motd/)
-  - [VMWare Tools](https://mlwiles.github.io/vmwaresolutions/vcd/vmwaretools/)
+  - [VMware Tools](https://mlwiles.github.io/vmwaresolutions/vcd/vmwaretools/)
 - vCD Networking
   - [Networking made easy](https://mlwiles.github.io/vmwaresolutions/vcd/network101/)
   - [Internet and IBM Cloud services access](https://mlwiles.github.io/vmwaresolutions/vcd/outbound/)

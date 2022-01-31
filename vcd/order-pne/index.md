@@ -1,8 +1,8 @@
-## vCD - Order a Private Network Endpoint (PNE) to connect your IBM account to your IBM VMWare Solutions Shared virtual datacenter (vDC)
+## vCD - Order a Private Network Endpoint (PNE) to connect your IBM account to your IBM VMware Solutions Shared virtual datacenter (vDC)
 
 Updated: 2020-10-02 
 
-There is an offering from IBM VMWare Solutions that allows communication between an IBM Cloud account and IBM VMWare Solutions Shared taking advantage of the IBM Cloud backbone.  This provides a fast connection between the accounts as well as avoids any ingress/egress charges.  
+There is an offering from IBM VMware Solutions that allows communication between an IBM Cloud account and IBM VMware Solutions Shared taking advantage of the IBM Cloud backbone.  This provides a fast connection between the accounts as well as avoids any ingress/egress charges.  
 
 The examples below show some of the common use cases that can be fullfilled by using a PNE to connect into a vDC.
 
@@ -12,7 +12,7 @@ The examples below show some of the common use cases that can be fullfilled by u
 
 <img src="images/0-pne.png" width="1000" style="border: 1px solid black">
 
-### Request a PNE from the IBM VMWare Solutions Shared virtual data center
+### Request a PNE from the IBM VMware Solutions Shared virtual data center
 
 Select 'Create a private network endpoint' as seen in the screenshot below.
 
@@ -35,7 +35,7 @@ In this example we allow all of IBM Cloud private (10.0.0.0/8) but will later sh
 Once created, the PNE will show the information that is required for firewall rules.  
 
 Note:
-- the 52. ip address is the internal address that is used by IBM VMWare Solutions Shared.  This is NOT a public IP.  
+- the 52. ip address is the internal address that is used by IBM VMware Solutions Shared.  This is NOT a public IP.  
 - the 166.9 IP will be your PNE address will be important for your firewall rules.  
 - the IP/subnet that you whitelisted at order time.  
 
@@ -54,5 +54,5 @@ Below is an example of a customer configuring their edge gateway to allow forwar
 
 <img src="images/4-pne.png" width="1000" style="border: 1px solid black">
 
-[VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
+[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
 [Main Page](https://mlwiles.github.io/vmwaresolutions)

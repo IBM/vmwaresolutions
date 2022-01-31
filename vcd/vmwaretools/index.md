@@ -1,18 +1,18 @@
-## vCD - VMWare Tools Management
+## vCD - VMware Tools Management
 
 Updated: 2021-05-09
 
 ### <a name="toc"></a>Table of Contents:
   - [Overview](#overview)
   - [Install Preparation](#install)
-    - [Install VMWare Tools on Linux](#linux)
-    - [Install VMWare Tools on Windows](#windows)
+    - [Install VMware Tools on Linux](#linux)
+    - [Install VMware Tools on Windows](#windows)
   - [Upgrade](#upgrade)
   - [References](#references)
 
 ###  <a name="overview"></a>Overview
 
-For Virtual Machines to integrate their best with the [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) offering, it is recommended that VMWare Tools be installed and kept up to date with the versioning of the infrastructure.  We will go through installation of VMWare Tools on Linux and Windows and discuss how to run the upgrades as future versions become available.
+For Virtual Machines to integrate their best with the [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) offering, it is recommended that VMware Tools be installed and kept up to date with the versioning of the infrastructure.  We will go through installation of VMware Tools on Linux and Windows and discuss how to run the upgrades as future versions become available.
 
 This requires for VMs to be installed.  VMs can be created from your own media or installed from the templates provided in the environment.  
 
@@ -22,32 +22,32 @@ Back to: [Menu](#toc)
 
 ###  <a name="install"></a>Install Preparation
 
-From the Virtual Machines View of the vDC, you can check to see what versions of VMWare Tools are installed on the VMs as well as to determine if VMWare Tools is installed at all.  
+From the Virtual Machines View of the vDC, you can check to see what versions of VMware Tools are installed on the VMs as well as to determine if VMware Tools is installed at all.  
 
 To change the properties that are viewed for the VMs:
 - Select the `List View` to change from Tile View (this is default)
-- Select the `Column Data` to display (check `VMWare Tools Version`)
+- Select the `Column Data` to display (check `VMware Tools Version`)
 - _Optionally you can filter by the name of the VM_
 
 <img src="images/0-properties.png" style="border: 1px solid black">
 
-Note the version of VMWare Tools or determine that VMWare Tools is not installed.
+Note the version of VMware Tools or determine that VMware Tools is not installed.
 
 <img src="images/1-not-installed.png" style="border: 1px solid black">
 
-To install / upgrade VMWare Tools from the environment, select the VM and from the Action Menu select `Install VMWare Tools`
+To install / upgrade VMware Tools from the environment, select the VM and from the Action Menu select `Install VMware Tools`
 
 <img src="images/2-mount-cd.png" style="border: 1px solid black">
 
-Note the task completed `Installed VMWare Tools on Virtual Machine`.  This DOES NOT actually imply that the Tools were installed, this only tells you that the virtual CDROM/Media is available from the VM.
+Note the task completed `Installed VMware Tools on Virtual Machine`.  This DOES NOT actually imply that the Tools were installed, this only tells you that the virtual CDROM/Media is available from the VM.
 
 <img src="images/3-mounted-cd.png" style="border: 1px solid black">
 
 Back to: [Menu](#toc)
 
-###  <a name="linux"></a>Install VMWare Tools on Linux
+###  <a name="linux"></a>Install VMware Tools on Linux
 
-The following will walk through installing VMWare Tools on a Linux VM.
+The following will walk through installing VMware Tools on a Linux VM.
 
 Once the Media is made available in the [Install Preparation](#install) section, we need to prepare the VM to mount the Media.  The following commands will mount and copy the install media to the VM.
 
@@ -61,32 +61,32 @@ tar zxvf VMwareTools-VERSION.tar.gz
 cd vmware-tools-distrib
 ```
 
-Now begin the installation of the VMWare Tools (this can change with every version, but should follow similar pattern of questioning).  _When answering the questions from the install script, default values are recommended_
+Now begin the installation of the VMware Tools (this can change with every version, but should follow similar pattern of questioning).  _When answering the questions from the install script, default values are recommended_
 
 ```
 ./vmware-install.pl
 ```
 <img src="images/4-linux.png" style="border: 1px solid black">
 
-more VMWare Tools install questions ... 
+more VMware Tools install questions ... 
 
 <img src="images/5-linux.png" style="border: 1px solid black">
 
-more VMWare Tools install questions ... 
+more VMware Tools install questions ... 
 
 <img src="images/6-linux.png" style="border: 1px solid black">
 
-more VMWare Tools install questions ... Once the VMWare Tools have been installed, it is _**STRONGLY**_ recommended to restart your VM to have the Kernel to cleanly restart as well as the VMWare Tools media to be unmounted from the VM.
+more VMware Tools install questions ... Once the VMware Tools have been installed, it is _**STRONGLY**_ recommended to restart your VM to have the Kernel to cleanly restart as well as the VMware Tools media to be unmounted from the VM.
 
 <img src="images/7-linux.png" style="border: 1px solid black">
 
 Back to: [Menu](#toc)
 
-###  <a name="windows"></a>Install VMWare Tools on Windows
+###  <a name="windows"></a>Install VMware Tools on Windows
 
-The following will walk through installing VMWare Tools on a Windows VM.
+The following will walk through installing VMware Tools on a Windows VM.
 
-Once the Media is made available in the [Install Preparation](#install) section, you can validate by starting `Windows Explorer` to view the latest Drives and note that the VMWare Tools shows as a CDROM.  Double click to being installation.
+Once the Media is made available in the [Install Preparation](#install) section, you can validate by starting `Windows Explorer` to view the latest Drives and note that the VMware Tools shows as a CDROM.  Double click to being installation.
 
 <img src="images/8-windows.png" style="border: 1px solid black">
 
@@ -110,7 +110,7 @@ Finish Install ...
 
 <img src="images/13-windows.png" style="border: 1px solid black">
 
-Once the VMWare Tools have been installed, it is _**STRONGLY**_ recommended to restart your VM to have Windows cleanly restart as well as the VMWare Tools media to be ejected from the VM.
+Once the VMware Tools have been installed, it is _**STRONGLY**_ recommended to restart your VM to have Windows cleanly restart as well as the VMware Tools media to be ejected from the VM.
 
 <img src="images/14-windows.png" style="border: 1px solid black">
 
@@ -118,9 +118,9 @@ Back to: [Menu](#toc)
 
 ###  <a name="upgrade"></a>Upgrade
 
-The infrastructure supporting [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) will be updated when required for patches, features, and security updates.  When the backing VMWare ESXi servers are updated, a newer version of the VMWare Tools will be available for upgrade.  You may see a message in the VM details such as `VMware Tools is installed, supported, but a newer version is available` when a newer version is available.
+The infrastructure supporting [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) will be updated when required for patches, features, and security updates.  When the backing VMware ESXi servers are updated, a newer version of the VMware Tools will be available for upgrade.  You may see a message in the VM details such as `VMware Tools is installed, supported, but a newer version is available` when a newer version is available.
 
-To Upgrade, follow the steps outlined in the [Install](#install) steps for the respective Operating System.  VMWare will try to uninstall the current version or identify that the versions are identical, and you should answer accordingly.
+To Upgrade, follow the steps outlined in the [Install](#install) steps for the respective Operating System.  VMware will try to uninstall the current version or identify that the versions are identical, and you should answer accordingly.
 
 Back to: [Menu](#toc)
 
@@ -134,5 +134,5 @@ Back to: [Menu](#toc)
 
 _Note the information described in this example are guidelines.  There are multiple ways to configure the various parts of the example.  Please adjust accordingly for your needs._
 
-[VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
+[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
 [Main Page](https://mlwiles.github.io/vmwaresolutions)

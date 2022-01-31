@@ -1,8 +1,8 @@
-## Welcome to my VMWare notebook.
+## Welcome to my VMware notebook.
 
-Some tips and tricks I picked up while working on [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) offerings.
+Some tips and tricks I picked up while working on [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) offerings.
 
-<h2><center>AS OF 2022-01-24  I AM NO LONGER WORKING FOR IBM - Contact IBM Support for assistance with VMWare Soutions items.  <br/>Thank you!</center></h2>
+<h2><center>AS OF 2022-01-24  I AM NO LONGER WORKING FOR IBM - Contact IBM Support for assistance with VMware Soutions items.  <br/>Thank you!</center></h2>
 
 <img src="images/ic4v.png" width="1000" style="border: 1px solid black">
 
@@ -15,6 +15,6 @@ Some tips and tricks I picked up while working on [VMWare Solutions on IBM Cloud
 
 Topics:
 - [IBM Cloud](https://mlwiles.github.io/vmwaresolutions/ibmcloud/)
-- [VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)
+- [VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)
 - [Veeam Availability Suite](https://mlwiles.github.io/vmwaresolutions/vas/)
 - [Veeam Cloud Connect Replication](https://mlwiles.github.io/vmwaresolutions/vccr/)

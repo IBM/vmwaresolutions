@@ -23,14 +23,14 @@ Some very basics for Terraform:
 - [terraform.tfvars](https://github.com/mlwiles/scripts/tree/main/terraform/vcd/prep-templates/terraform.tfvars) – File where you assign variables, override defaults set in the definitions
 - [main.tf](https://github.com/mlwiles/scripts/tree/main/terraform/vcd/prep-templates/main.tf) – Playbook for the script to execute
 
-## VMWare Shared Usecase
+## VMware Shared Usecase
 
-[VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) provides several OS templates that customers can use to build up their vDC.  These templates are available for all customers via the Global Public Catalog.
+[VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) provides several OS templates that customers can use to build up their vDC.  These templates are available for all customers via the Global Public Catalog.
 <img src="images/0-templates.png" width="1000" style="border: 1px solid black">
 
 <img src="images/0-terraform.png" width="1000" style="border: 1px solid black">
 
-One effort that VMWare Solutions tries to fulfill is to keep these OS templates images up to date with the latest OS provided patches as well as update the installed version of VMWare tools to work with OS Customizations of vCD.  This is a very repetitive task and updates are pushed out monthly, if not more frequently, so it’s a perfect fit to use terraform.
+One effort that VMware Solutions tries to fulfill is to keep these OS templates images up to date with the latest OS provided patches as well as update the installed version of VMware tools to work with OS Customizations of vCD.  This is a very repetitive task and updates are pushed out monthly, if not more frequently, so it’s a perfect fit to use terraform.
 
 ## The Update Process
 The process to update requires:
@@ -269,6 +269,6 @@ My Source Terraform<br/>
 [Create / Prep Images](https://github.com/mlwiles/scripts/tree/main/terraform/vcd/prep-templates)<br/>
 [Test Local Images](https://github.com/mlwiles/scripts/tree/main/terraform/vcd/prep-templates-test)<br/>
 
-[VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
+[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
 [Main Page](https://mlwiles.github.io/vmwaresolutions)
 

@@ -1,4 +1,4 @@
-## IBM Cloud - Accessing VMWare Solutions (Coming Soon)
+## IBM Cloud - Accessing VMware Solutions (Coming Soon)
 
 Updated: 2021-09-29
 

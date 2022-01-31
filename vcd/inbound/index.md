@@ -96,7 +96,7 @@ Select the NIC
 
 <img src="images/7-vm-network.png" style="border: 1px solid black">
 
-Once set, Force Customization on the VM to have VMWare Tools setup the networking.
+Once set, Force Customization on the VM to have VMware Tools setup the networking.
 
 <img src="images/8-vm-poweron.png" style="border: 1px solid black">
 
@@ -146,5 +146,5 @@ Back to: [Menu](#toc)
 
 _Note the information described in this example are guidelines.  There are multiple ways to configure the various parts of the example.  Please adjust accordingly for your needs._
 
-[VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
+[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
 [Main Page](https://mlwiles.github.io/vmwaresolutions)
