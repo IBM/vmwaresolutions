@@ -1,8 +1,8 @@
-## vCD - Simple Deploy of a VM 
+# vCD - Simple Deploy of a VM 
 
 Updated: 2020-11-26
  
-### To vApp or Not to vApp?
+## To vApp or Not to vApp?
 
 The first choice when deploying a VM in vCD is to consider using a Virtual Application (referred to a vApp) or create a 'standalone' VM.  There are more advantages for using vApps then not.  They are a relatively lightweight 'container' of VMs, networks, and some policies.
 - **Logical collections of VMs** - add upto [128 VMs in a single vApp](https://configmax.vmware.com/guest?vmwareproduct=vCloud%20Director%20For%20Service%20Providers&release=VMware%20Cloud%20Director%2010.2&categories=35-0).
@@ -28,7 +28,7 @@ Only a name is required, but its good practice to add a descrition for others.
 
 <img src="images/2-new-vapp.png" width="1000" style="border: 1px solid black">
 
-### Creating a new VM
+## Creating a new VM
 
 There are a few ways to create a VM:
 
@@ -64,7 +64,7 @@ Once initial configuration options are selected, Click **OK** to begin deploymen
 This can take several minutes to complete.  The underlying infrastructure is creating a clone from the Template in the Public Catalog so depending on which physical datacenter the vDC is located and the template selected ... this can increase the deployment time.  Typically this is less than 10 minutes.
 <img src="images/10-new-vm.png" width="1000" style="border: 1px solid black">
 
-### VM Details
+## VM Details
 
 Once the VM is deployed, there are a few things I like to change before powering it up.
 
@@ -132,8 +132,5 @@ VMware Solutions Shared pricing](https://cloud.ibm.com/docs/vmwaresolutions?topi
 
 _Note the information described in this example are guidelines.  There are multiple ways to configure the various parts of the example.  Please adjust accordingly for your needs._
 
-[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
-[Main Page](https://mlwiles.github.io/vmwaresolutions)
-
-
-
+[VMware vCloud Director](https://ibm.github.io/vmwaresolutions/vcd/)<br/>
+[Main Page](https://ibm.github.io/vmwaresolutions)
