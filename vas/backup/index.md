@@ -2,7 +2,7 @@
 
 Updated: 2020-01-05
 
-One of the enabled services for [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) is the ability to use Veeam Availability Services (VAS) via a Self Service Portal (SSP) to backup and restore VMs within your virtual Data Center.  The VAS service is automatically enabled by default for all virtual data centers.  This is noted on the vDC order page and owners are only charged for what you use in the VAS.
+One of the enabled services for [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) is the ability to use Veeam Availability Services (VAS) via a Self Service Portal (SSP) to backup and restore VMs within your virtual Data Center.  The VAS service is automatically enabled by default for all virtual data centers.  This is noted on the vDC order page and owners are only charged for what you use in the VAS.
 
 ### Access the Self-Service Portal
 
@@ -12,7 +12,7 @@ The first link is provided from the within the vCD portal.  Once authenticated i
 
 <img src="images/1-backup-from-vcd.png" width="1000" style="border: 1px solid black">
 
-The second link is provided from the vCD summary page within the [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) portal.  Once authenticated into the vCD summary page, scroll to the bottom portion of the summary page to see the link.
+The second link is provided from the vCD summary page within the [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) portal.  Once authenticated into the vCD summary page, scroll to the bottom portion of the summary page to see the link.
 
 <img src="images/2-backup-from-portal.png" width="1000" style="border: 1px solid black">
 

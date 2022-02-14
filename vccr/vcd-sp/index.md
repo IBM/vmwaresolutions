@@ -2,7 +2,7 @@
 
 Updated: 2020-11-27
 
-One of the enabled services for [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) is the ability to use Veeam Cloud Connect Replication (VCCR) for Disaster Recovery as a Service (DRaaS) or migration of VMs from your current data center or offering into IBM Cloud.  The VCCR service is automatically enabled by default for all virtual data centers.  This is noted on the vDC order page.
+One of the enabled services for [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) is the ability to use Veeam Cloud Connect Replication (VCCR) for Disaster Recovery as a Service (DRaaS) or migration of VMs from your current data center or offering into IBM Cloud.  The VCCR service is automatically enabled by default for all virtual data centers.  This is noted on the vDC order page.
 
 <img src="images/1-ic4v-order-page.png" width="1000" style="border: 1px solid black">
 
@@ -16,7 +16,7 @@ From there you have multiple ways to add the new Service Provider
 
 <img src="images/3-add-sp.png" width="1000" style="border: 1px solid black">
 
-In the *Service Provider* Wizard, enter the DNS name provided from the vDC summary page.  Note that the Port is the default for VCCR.  VMWare Solutions on IBM Cloud does not at this point offer remote VBR management so this checkbox is ignored.
+In the *Service Provider* Wizard, enter the DNS name provided from the vDC summary page.  Note that the Port is the default for VCCR.  VMware Solutions on IBM Cloud does not at this point offer remote VBR management so this checkbox is ignored.
 
 <img src="images/4-add-sp.png" width="1000" style="border: 1px solid black">
 
@@ -24,7 +24,7 @@ For some troubleshooting tips at this point already.  If you get to the *Credent
 
 <img src="images/5-vccr-certificates.png" width="1000" style="border: 1px solid black">
 
-1. make sure your VBR has internet access - this is required by Veeam to validate the revocation status of the SSL certificate provided by the VCCR components. In the case of VMWare Solutions on IBM Cloud we currently use DigiCert as a certificate provider for this offering.  The Online Certificate Status Protocol (OCSP) for DigiCert is ocsp.digicert.com.  <br>**NOTE** this OCSP service is using HTTP not HTTPS therefore using port 80.  For more details in this, contact Veeam support for specifics.
+1. make sure your VBR has internet access - this is required by Veeam to validate the revocation status of the SSL certificate provided by the VCCR components. In the case of VMware Solutions on IBM Cloud we currently use DigiCert as a certificate provider for this offering.  The Online Certificate Status Protocol (OCSP) for DigiCert is ocsp.digicert.com.  <br>**NOTE** this OCSP service is using HTTP not HTTPS therefore using port 80.  For more details in this, contact Veeam support for specifics.
 2. make sure your VBR has DNS to resolve not only the primary DNS entry, but the specific gateway DNS entries.  The VCCR service uses Round Robin DNS to distribute the replication workload among all gateways in available.  So if you perform a DNS lookup of the VCCR Service Provider URL, multiple IPs will be resolved.  However adding just these to your DNS or *hosts* file is not sufficient.  It is recommended that your VBR have access to public DNS as well.
 3. make sure that your VBR has firewall access for port 6180  
 

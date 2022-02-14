@@ -14,7 +14,7 @@ Updated: 2021-03-24
 
 ### <a name="types"></a>vCD Network Types
 
-- **<a name="external"></a>[External](https://docs.vmware.com/en/VMware-Cloud-Director/10.2/VMware-Cloud-Director-Service-Provider-Admin-Portal-Guide/GUID-B460BB86-C302-484E-A0C0-C754D83A5BDD.html)** networks are backed by vSphere networks therefore created by a system administrator.  These networks provide uplinks to networks outside of vCD.  In the current implementation of [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) there are two networks visible to vDC users:<br>
+- **<a name="external"></a>[External](https://docs.vmware.com/en/VMware-Cloud-Director/10.2/VMware-Cloud-Director-Service-Provider-Admin-Portal-Guide/GUID-B460BB86-C302-484E-A0C0-C754D83A5BDD.html)** networks are backed by vSphere networks therefore created by a system administrator.  These networks provide uplinks to networks outside of vCD.  In the current implementation of [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console) there are two networks visible to vDC users:<br>
   - Service network (e.g. _dal12-w02-service01_) - this network is used to allow virtual datacenter VMs to access IBM Cloud internal services.
   - Tenant External (e.g. _dal12-w02-tenant-external_) - this network is used to allow virtual datacenter VMs to access the public internet.
 
@@ -26,10 +26,10 @@ Updated: 2021-03-24
 <br>
 
 - **<a name="org"></a>[Organization](https://docs.vmware.com/en/VMware-Cloud-Director/10.2/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-B208CDD2-5D46-4841-8F3C-BED9E4F27F07.html)** networks are backed by NSX Data Center for vSphere which can be created by an vDC organization administrator or higher privileged user.  These networks provide various access levels within the vDC organization.  These types are:
-  - Direct - direct layer 2 external network connectivity to virtual machines outside of the organization vDC (_currently not available for [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console)_).
+  - Direct - direct layer 2 external network connectivity to virtual machines outside of the organization vDC (_currently not available for [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console)_).
   - [Isolated (Internal)](https://docs.vmware.com/en/VMware-Cloud-Director/10.2/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-BCF1FEB1-F50C-4E11-8453-EED101396D0D.html) - a private network that only organization virtual machines and vApps can connect to.
   - [Routed](https://docs.vmware.com/en/VMware-Cloud-Director/10.2/VMware-Cloud-Director-Tenant-Portal-Guide/GUID-74C4D27F-9E2A-4EB2-BBE1-CDD45C80E270.html) - a network that provides controlled access to external networks by use of network address translation (NAT), firewall, and VPN settings.
-  - Imported - logical network segments that are created in NSX-T Data Center and use an existing NSX-T Data Center logical switch (_currently not available for [VMWare Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console)_).
+  - Imported - logical network segments that are created in NSX-T Data Center and use an existing NSX-T Data Center logical switch (_currently not available for [VMware Solutions on IBM Cloud](https://cloud.ibm.com/infrastructure/vmware-solutions/console)_).
 
   From the datacenter view<br>
     Networking > Networks > New
@@ -120,6 +120,6 @@ TO_BE_CONTINUED
 
 _Note the information described in this example are guidelines.  There are multiple ways to configure the various parts of the example.  Please adjust accordingly for your needs._
 
-[VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
+[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
 [Main Page](https://mlwiles.github.io/vmwaresolutions)
 

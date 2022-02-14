@@ -15,7 +15,7 @@ I will try to address some common questions around password management of the VM
 There are some assumptions I make in this article:<br>
 - the templates used are from the vCD instance `Public Catalog`
 - the OS image information I share can be generalized for the various versions of OS (e.g. Windows 2016 vs Windows 2019 there might be subtle differences)
-- for password management, the VMWare tools software is installed and up to date on the VM.  For more details on [VMWare Tools](https://mlwiles.github.io/vmwaresolutions/vcd/vmwaretools/).
+- for password management, the VMware tools software is installed and up to date on the VM.  For more details on [VMware Tools](https://mlwiles.github.io/vmwaresolutions/vcd/vmwaretools/).
 
 For more details on deploying VMs see [Simple Deploy of a VM](https://mlwiles.github.io/vmwaresolutions/vcd/vm101/).
 
@@ -61,8 +61,8 @@ Back to: [Menu](#toc)
 
 ### <a name="linux"></a>Linux Login Screen (MOTD)
 
-The Red Hat Enterprise Linux (RHEL) images provided from the VMWare Shared environment have a MOTD (Message of the Day) that is intended to assist the user to enable the RHEL image to subscribe to the Red Hat satellite server.  Once the RHEL image is configured, the message can be removed, but we do not have a way to do that for the user.  For RHEL and the CentOS images provided, there is a simple way that the user can update the MOTD.<br>
-_(CentOS images provided from the VMWare Shared environment DO NOT have the MOTD set in the default templates)_.
+The Red Hat Enterprise Linux (RHEL) images provided from the VMware Shared environment have a MOTD (Message of the Day) that is intended to assist the user to enable the RHEL image to subscribe to the Red Hat satellite server.  Once the RHEL image is configured, the message can be removed, but we do not have a way to do that for the user.  For RHEL and the CentOS images provided, there is a simple way that the user can update the MOTD.<br>
+_(CentOS images provided from the VMware Shared environment DO NOT have the MOTD set in the default templates)_.
 
 Use an editor to modify the `/etc/motd` file.<br>
 
@@ -77,7 +77,7 @@ Back to: [Menu](#toc)
 ### <a name="windows"></a>Windows Login Screen (Legal Notice)
 
 Similar to Linux, Windows provides the ability to have a MOTD (Message of the Day) which Windows refers to as the `Legal Notice`.  This can be changed for Windows using the Registry Editor (regedit.exe).<br>
-_(The Windows images provided from the VMWare Shared environment DO NOT have the MOTD set in the default templates)_. 
+_(The Windows images provided from the VMware Shared environment DO NOT have the MOTD set in the default templates)_. 
 
 <img src="images/10-windows-regedit.png" style="border: 1px solid black">
 
@@ -99,5 +99,5 @@ Back to: [Menu](#toc)
 
 _Note the information described in this example are guidelines.  There are multiple ways to configure the various parts of the example.  Please adjust accordingly for your needs._
 
-[VMWare vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
+[VMware vCloud Director](https://mlwiles.github.io/vmwaresolutions/vcd/)<br/>
 [Main Page](https://mlwiles.github.io/vmwaresolutions)

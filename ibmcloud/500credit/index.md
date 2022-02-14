@@ -1,16 +1,11 @@
-## IBM Cloud - $500 credit code (Coming Soon)
+# IBM Cloud - $500 credit code
 
-<!-- 
-Updated: 2021-09-29
---> 
+Announcing a 90-day, USD 500 credit for getting started with IBM Cloud for VMware Solutions Shared.
 
-Work in progress.  Hope to post content soon... in the meantime, here's a smile.  Have a great day!
+IBM Cloud is providing a no-cost way to start running your VMware workloads in the cloud. We are offering a 90-day, USD 500 credit for getting started with IBM Cloud for VMware Solutions Shared—a self-service, multi-tenant solution for extending VMware workloads to the cloud in a matter of minutes.
 
-<img src="../../mlwiles.png" width="100" style="border: 1px solid black">
+Please head over to [here](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-for-vmware-special-promotion) for the details.
 
-<!-- 
-https://www.ibm.com/cloud/blog/announcements/ibm-cloud-for-vmware-special-promotion
--->
+[IBM Cloud](https://ibm.github.io/vmwaresolutions/ibmcloud/)
 
-[IBM Cloud](https://mlwiles.github.io/vmwaresolutions/ibmcloud/)<br/>
-[Main Page](https://mlwiles.github.io/vmwaresolutions)
+[Main Page](https://ibm.github.io/vmwaresolutions)

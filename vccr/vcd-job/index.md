@@ -71,7 +71,7 @@ The *New* replica will be created in the vCD Org > vCD virtual Datacenter > Comp
 
 <img src="images/15-running-job.png" width="1000" style="border: 1px solid black">
 
-The snapshot is transferred via the local VBR to the Service Provider VMWare vCloud infrastructure.  vCD is backed by vSphere so as we navigate the backend view to the vCD Org (folder) > vCD virtual Datacenter (folder) > vCD vApp (folder) ... we ultimately find the new VM.  While the replication is in progress, the new snapshot will be created with the name *Veeam Replica Working Snapshot*.  Once the snapshot is successfully applied to the target VM the snapshot is renamed to *Restore Point MM-DD-YYYY HH:mm*.  These *Restore Points* can be controlled from the local VBR.
+The snapshot is transferred via the local VBR to the Service Provider VMware vCloud infrastructure.  vCD is backed by vSphere so as we navigate the backend view to the vCD Org (folder) > vCD virtual Datacenter (folder) > vCD vApp (folder) ... we ultimately find the new VM.  While the replication is in progress, the new snapshot will be created with the name *Veeam Replica Working Snapshot*.  Once the snapshot is successfully applied to the target VM the snapshot is renamed to *Restore Point MM-DD-YYYY HH:mm*.  These *Restore Points* can be controlled from the local VBR.
 
 <img src="images/16-running-job.png" width="1000" style="border: 1px solid black">
 
